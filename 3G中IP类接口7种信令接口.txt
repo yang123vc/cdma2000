@@ -1,0 +1,29 @@
+sgsn<-->ggsn Gn
+sgsn<-->bss GB
+sgsn<-->msc Gs
+sgsn<-->hlr Gr
+sgsn<-->sms-gmsc Gd	
+ggsn->internet Gi
+ggsn-hlr gC
+
+MSC：Mobile Switching Center，是通信系统的核心网元之一
+PSTN: Public Switching Telephone Network
+BSS：Basic Station Subsystem
+HLR：Home Location Register 归属位置寄存器，它是一个负责移动用户管理的数据库，永久存储和记录所管辖区域内用户的签约数据，并动态地更新用户的位置信息，以便在呼叫业务中提供被呼叫用户的网络路由。
+CN：Core Network
+CS：Circuit Switched Domain
+PDSN：Packet Data Serving Node，负责建立和终止PPP连接的。
+RAN：Radio Access Network
+BSC：Base Station Controller 是基站收发台和移动交换中心之间的连接点
+PSp：Packet Switched Domain
+UTRAN：UMTS Terrestrial Radio Access Network
+UMTS：Universal Mobile  Telecommunications System 通用移动通信系统
+RNC：Radio Network Controller，是3G无线网络中的主要网元，是接入网络的组成部分，负责移动性管理、呼叫管理、链路管理和移交机制。
+
+
+
+
+
+
+
+

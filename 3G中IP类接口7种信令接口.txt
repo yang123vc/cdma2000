@@ -7,7 +7,7 @@ ggsn->internet Gi
 ggsn-hlr gC
 
 MSC£ºMobile Switching Center£¬ÊÇÍ¨ÐÅÏµÍ³µÄºËÐÄÍøÔªÖ®Ò»
-PSTN: Public Switching Telephone Network
+PSTN: Public Switching Telephone Network£¬¹«¹²½»»»µç»°Íø£¬Ò»ÖÖ³£ÓÃµÄµç»°ÏµÍ³¡£¼´ÎÒÃÇÈÕ³£Éú»îÖÐÓÃµ½µÄµç»°Íø¡£PSTNÊÇÒ»ÖÖÒÔÄ£Äâ¼¼ÊõÎª»ù´¡µÄµçÂ·½»»»ÍøÂç£¬Í¨ÐÅ·ÑÓÃ½ÏµÍ£¬Êý¾Ý´«ÊäÒÔ¼°´«ÊäÖÊÁ¿½Ï²î£¬×ÊÔ´ÀûÓÃÂÊµÍ¡£
 BSS£ºBasic Station Subsystem
 HLR£ºHome Location Register ¹éÊôÎ»ÖÃ¼Ä´æÆ÷£¬ËüÊÇÒ»¸ö¸ºÔðÒÆ¶¯ÓÃ»§¹ÜÀíµÄÊý¾Ý¿â£¬ÓÀ¾Ã´æ´¢ºÍ¼ÇÂ¼Ëù¹ÜÏ½ÇøÓòÄÚÓÃ»§µÄÇ©Ô¼Êý¾Ý£¬²¢¶¯Ì¬µØ¸üÐÂÓÃ»§µÄÎ»ÖÃÐÅÏ¢£¬ÒÔ±ãÔÚºô½ÐÒµÎñÖÐÌá¹©±»ºô½ÐÓÃ»§µÄÍøÂçÂ·ÓÉ¡£
 CN£ºCore Network
@@ -23,7 +23,10 @@ RNC£ºRadio Network Controller£¬ÊÇ3GÎÞÏßÍøÂçÖÐµÄÖ÷ÒªÍøÔª£¬ÊÇ½ÓÈëÍøÂçµÄ×é³É²¿·Ö£¬¸
 
 
 
-
-
-
-
+WCDMA ¼òµ¥Ê¾ÒâÍ¼
+		3GºËÐÄÍø		Íâ²¿ÍøÂç
+	       CSÓò
+	     / MSC VLR GMSC gsmSSF -	PSTN 
+ÖÕ¶Ë - ½ÓÈëÍø  ÒµÎñÓ¦ÓÃÁìÓò HLR SCP  	
+ 	     \ SGSN, GGSN	   -	Internet
+	       PSÓò

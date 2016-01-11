@@ -1,3 +1,4 @@
+7种接口类型
 sgsn<-->ggsn Gn
 sgsn<-->bss GB
 sgsn<-->msc Gs
@@ -6,7 +7,10 @@ sgsn<-->sms-gmsc Gd
 ggsn->internet Gi
 ggsn-hlr gC
 
+常用名词解释
+ISDN: Integrated Services Digital Network是一个数字电话网络国际标准，是一种典型的电路交换网络系统。
 MSC：Mobile Switching Center，是通信系统的核心网元之一
+GMSC:Gateway Mobile Switching Center，网关移动交换中心，从HLR查询得到被叫MS当前的漫游号码，并根据此信息选择路由，GMSC可以是任意的MSC，也可以单独配置。单独配置时，不处理MS的呼叫，，因此不需设VLR，不与BSC相连。
 PSTN: Public Switching Telephone Network，公共交换电话网，一种常用的电话系统。即我们日常生活中用到的电话网。PSTN是一种以模拟技术为基础的电路交换网络，通信费用较低，数据传输以及传输质量较差，资源利用率低。
 BSS：Basic Station Subsystem
 HLR：Home Location Register 归属位置寄存器，它是一个负责移动用户管理的数据库，永久存储和记录所管辖区域内用户的签约数据，并动态地更新用户的位置信息，以便在呼叫业务中提供被呼叫用户的网络路由。
@@ -21,8 +25,6 @@ UMTS：Universal Mobile  Telecommunications System 通用移动通信系统
 RNC：Radio Network Controller，是3G无线网络中的主要网元，是接入网络的组成部分，负责移动性管理、呼叫管理、链路管理和移交机制。
 
 
-
-
 WCDMA 简单示意图
 		3G核心网		外部网络
 	       CS域
@@ -30,3 +32,12 @@ WCDMA 简单示意图
 终端 - 接入网  业务应用领域 HLR SCP  	
  	     \ SGSN, GGSN	   -	Internet
 	       PS域
+
+CN Core NetworkCN 即核心网络，负责与其他网络的连接和对UE的通信和管理。主要功能实体如下:
+(1) MSC/VLRMSC/VLR的主要功能是提供CS域的呼叫控制移动性管理鉴权和加密等功能
+(2) GMSC的主要功能是充当移动网和固定网之间的移动关口局，完成PSTN用户呼移动用户时呼入呼叫的路由功能，承担路由分析网间接续网间结算等重要功能。(3) SGSN的主要功能是提供PS域的路由转发、移动性管理、会话管理、鉴权和加密等功能。(4) GGSN类似可寻址WCDMA移动网络中所有用户IP的路由器,需要同外部网络交换路由信息。
+(5) HLR（类似G网)
+
+External Networks：External Networks 即外部网络可以分为两类：
+电路交换网络（CS Networks）： 提供电路交换的连接服务象通话服务。ISDN和PSTN均属于电路交换网络
+分组交换网络（PS Networks）： 提供数据包的连接服务。Internet属于分组数据交换网络
